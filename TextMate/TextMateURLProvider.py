@@ -19,12 +19,12 @@ from subprocess import Popen, PIPE
 from autopkglib import Processor, ProcessorError
 
 DEFAULT_BRANCH = "release"
-BASE_URL = "http://api.textmate.org/downloads/"
+BASE_URL = "https://api.textmate.org/downloads/"
 
 # Another interesting URL that returns an ASCII-style plist used by
 # the app's own SU mechanism, but the download URL it returns is an
 # https URL that urllib/2 cannot handshake with:
-# http://api.textmate.org/releases/
+# https://api.textmate.org/releases/
 
 __all__ = ["TextMateURLProvider"]
 

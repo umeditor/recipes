@@ -24,7 +24,7 @@ from autopkglib import Processor, ProcessorError
 __all__ = ["OracleJava7URLProvider"]
 
 
-BASE_URL = "http://java.com/en/download/manual.jsp?locale=en"
+BASE_URL = "https://java.com/en/download/manual.jsp?locale=en"
 
 #<a title="Download Java software for Mac OS X" href=
 #"http://javadl.sun.com/webapps/download/AutoDL?BundleId=76905"

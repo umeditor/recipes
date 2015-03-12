@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads and imports Munki tools. By default gets the latest dmg from http://code.google.com/p/munki/downloads/list.
-Change the DOWNLOAD_URL to "http://munkibuilds.org/munkitools-latest.dmg" to get latest build.</string>
+    <string>Downloads and imports Munki tools. By default gets the latest dmg from https://code.google.com/p/munki/downloads/list.
+Change the DOWNLOAD_URL to "https://munkibuilds.org/munkitools-latest.dmg" to get latest build.</string>
     <key>Identifier</key>
     <string>com.github.autopkg.munki.munkitools</string>
     <key>Input</key>
@@ -12,7 +12,7 @@ Change the DOWNLOAD_URL to "http://munkibuilds.org/munkitools-latest.dmg" to get
         <key>NAME</key>
         <string>munkitools</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://code.google.com/p/munki/downloads/list</string>
+        <string>https://code.google.com/p/munki/downloads/list</string>
         <key>MUNKI_CATALOG</key>
         <string>development</string>
         <key>MUNKI_REPO_SUBDIR</key>
