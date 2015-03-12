@@ -6,7 +6,7 @@
     <string>Downloads the current release version of Evernote and imports into Munki.
 
 Alternate Beta URL that can be used for SPARKLE_FEED_URL:
-http://update.evernote.com/prerelease/ENMac/EvernoteMacUpdate.xml
+https://update.evernote.com/prerelease/ENMac/EvernoteMacUpdate.xml
 </string>
     <key>Identifier</key>
     <string>com.github.autopkg.munki.Evernote</string>
@@ -17,7 +17,7 @@ http://update.evernote.com/prerelease/ENMac/EvernoteMacUpdate.xml
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/Evernote</string>
         <key>SPARKLE_FEED_URL</key>
-        <string>http://update.evernote.com/public/ENMac/EvernoteMacUpdate.xml</string>
+        <string>https://update.evernote.com/public/ENMac/EvernoteMacUpdate.xml</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>

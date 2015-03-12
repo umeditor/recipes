@@ -6,7 +6,7 @@
     <string>Downloads the current release version of Evernote
 
 Alternate Beta URL that can be used for SPARKLE_FEED_URL:
-http://update.evernote.com/prerelease/ENMac/EvernoteMacUpdate.xml
+https://update.evernote.com/prerelease/ENMac/EvernoteMacUpdate.xml
 </string>
     <key>Identifier</key>
     <string>com.github.autopkg.download.Evernote</string>
@@ -15,7 +15,7 @@ http://update.evernote.com/prerelease/ENMac/EvernoteMacUpdate.xml
         <key>NAME</key>
         <string>Evernote</string>
         <key>SPARKLE_FEED_URL</key>
-        <string>http://update.evernote.com/public/ENMac/EvernoteMacUpdate.xml</string>
+        <string>https://update.evernote.com/public/ENMac/EvernoteMacUpdate.xml</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>

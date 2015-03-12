@@ -29,18 +29,18 @@ __all__ = ["MSOffice2011UpdateInfoProvider"]
 # Some interesting URLs:
 
 # Office 2011
-# http://www.microsoft.com/mac/autoupdate/0409MSOf14.xml
+# https://www.microsoft.com/mac/autoupdate/0409MSOf14.xml
 
 # Microsoft Auto Update 2
-# http://www.microsoft.com/mac/autoupdate/0409MSau02.xml
+# https://www.microsoft.com/mac/autoupdate/0409MSau02.xml
 
 # Microsoft Error Reporting 2
-# http://www.microsoft.com/mac/autoupdate/0409Merp2.xml
+# https://www.microsoft.com/mac/autoupdate/0409Merp2.xml
 
-# See http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx
+# See https://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx
 # for a table of "Culture Codes"
 CULTURE_CODE = "0409"
-BASE_URL = "http://www.microsoft.com/mac/autoupdate/%sMSOf14.xml"
+BASE_URL = "https://www.microsoft.com/mac/autoupdate/%sMSOf14.xml"
 MUNKI_UPDATE_NAME = "Office2011_update"
 
 class MSOffice2011UpdateInfoProvider(Processor):
@@ -52,7 +52,7 @@ class MSOffice2011UpdateInfoProvider(Processor):
             "required": False,
             "description": (
                 "See "
-                "http://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx"
+                "https://msdn.microsoft.com/en-us/library/ee825488(v=cs.20).aspx"
                 " for a table of CultureCodes Defaults to 0409, which "
                 "corresponds to en-US (English - United States)"),
         },
@@ -194,7 +194,7 @@ class MSOffice2011UpdateInfoProvider(Processor):
         # a User-Agent of 'Python-urllib/2.7' - even a blank User-Agent string
         # passes.
         req.add_header("User-Agent",
-            "Microsoft%20AutoUpdate/3.0.2 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)")        
+            "Microsoft%20AutoUpdate/3.0.2 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)")
         try:
             fref = urllib2.urlopen(req)
             data = fref.read()

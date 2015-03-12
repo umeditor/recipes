@@ -24,10 +24,10 @@ from autopkglib import Processor, ProcessorError
 __all__ = ["MunkitoolsURLProvider"]
 
 
-RELEASE_BASE_URL = "http://code.google.com/p/munki/downloads/list"
-MUNKIBUILDS_URLS = ["http://munkibuilds.org/munkitools-latest.dmg",
+RELEASE_BASE_URL = "https://code.google.com/p/munki/downloads/list"
+MUNKIBUILDS_URLS = ["https://munkibuilds.org/munkitools-latest.dmg",
                     "https://munkibuilds.org/munkitools-latest.dmg",
-                    "http://munkibuilds.org/munkitools2-latest.pkg",
+                    "https://munkibuilds.org/munkitools2-latest.pkg",
                     "https://munkibuilds.org/munkitools2-latest.pkg"]
 DEFAULT_MAJOR_VERSION = "1"
 RE_DMG_LINK = re.compile(
